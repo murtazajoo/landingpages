@@ -305,24 +305,24 @@ footer div a:hover{
     }
     .gridtext h2{
         margin: auto;
-        font-size: 8vw;
+        font-size: 7vw;
     }
     .gridtext p{
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .gridtext button{
-        font-size: 5vw;
+        font-size: 4vw;
         text-align: center;
         margin: auto;
     }
     .gptext{
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .test{
         height: 100%;
     }
     .test h1{
-        font-size: 6vw;
+        font-size: 5vw;
         margin: 10vw;
     }
     .clients{
@@ -338,10 +338,10 @@ footer div a:hover{
     width: 80%
     ;
 }
-    .clients p{font-size: 4.5vw;
+    .clients p{font-size: 3.5vw;
         line-height: 1.3em;
          height: 100%;}
-    .clients h3{ font-size: 5vw;}
+    .clients h3{ font-size: 4vw;}
     small{
         font-size: 1.9vw;
     }
@@ -391,10 +391,13 @@ nav::before{
     border: 15px solid rgb(255, 255, 255);
 }
 ul {
-    
+    text-align:center;
     flex-direction: column;
 }
 ul li{
+    
+    text-align:center;
+    
     color: var(--Darkgrayishblue) !important;
 }
 .active{
